@@ -126,7 +126,7 @@ input {
 .dimention {
   display: flex;
   flex-direction: column;
-  /* flex: 1 1 100%; */
+  flex: 1 1 100%;
   align-items: center;
   justify-content: center;
   padding: 30px;
