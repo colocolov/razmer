@@ -1,37 +1,67 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#111111" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Разрешение экрана</title>
-  </head>
 
-  <body>
-    <div class="wrapper">
-      <div class="header"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#111111" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Разрешение экрана</title>
+</head>
 
-      <main class="main">
-        <div class="dimention">
-          <div class="dimention__block">
-            <p>Разрешение экрана:</p>
-            <p><span class="dimention__width">100</span> x <span class="dimention__height">200</span></p>
-          </div>
-          <div class="dimention__device">
-            <p>iPad 2017 9'7 - 768x960 / 1024x704</p>
-            <p>iPhone 10 XR - 414x721 / 800x370</p>
-            <p>Redmi Note 10 Pro - 393x783 / 839x303</p>
-            <p>Samsung S21 - 360x670 / 726x280</p>
-            <p>Huawei Nova - 360x516 / 598x280</p>
-          </div>
+<body>
+  <div class="wrapper">
+    <div class="header"></div>
+
+    <main class="main">
+      <div class="dimention">
+        <div class="dimention__block">
+          <p>Разрешение экрана:</p>
+          <p><span class="dimention__width">100</span> x <span class="dimention__height">200</span></p>
         </div>
-      </main>
+        <div class="dimention__device">
 
-      <footer class="footer"></footer>
-    </div>
+          <dl class="dimention__phones">
+            <h3>Phones</h3>
+            <div class="dimention__item">
+              <dt>iPhone 10 XR</dt>
+              <dd>414x721 / 800x370</dd>
+            </div><!-- /.dimention__item -->
+            <div class="dimention__item">
+              <dt>Huawei Nova</dt>
+              <dd>360x516 / 598x280</dd>
+            </div><!-- /.dimention__item -->
+            <div class="dimention__item">
+              <dt>Redmi Note 10 Pro</dt>
+              <dd>393x783 / 839x303</dd>
+            </div><!-- /.dimention__item -->
+            <div class="dimention__item">
+              <dt>Samsung S21</dt>
+              <dd>360x670 / 726x280</dd>
+            </div><!-- /.dimention__item -->
+          </dl>
 
-    <script defer src="js/main.min.js"></script>
-  </body>
+          <dl class="dimention__tablets">
+            <h3>Tablets</h3>
+            <div class="dimention__item">
+              <dt>iPad 2017 9'7</dt>
+              <dd>768x960 / 1024x704</dd>
+            </div><!-- /.dimention__item -->
+            <div class="dimention__item">
+              <dt>Xiaomi Pad 6</dt>
+              <dd>720x1016 / 1152x584</dd>
+            </div><!-- /.dimention__item -->
+          </dl>
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer"></footer>
+  </div>
+
+  <script defer src="js/main.min.js"></script>
+</body>
+
 </html>
