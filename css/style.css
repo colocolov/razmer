@@ -153,6 +153,7 @@ input {
   font-size: 16px;
   line-height: 1.2;
   display: flex;
+  gap: 30px;
   justify-content: space-between;
   align-self: flex-start;
   width: 100%;
@@ -193,4 +194,10 @@ input {
   max-width: 155px;
   flex: 1 1 54%;
   text-align: right;
+}
+
+@media screen and (max-width: 767.98px) {
+  .dimention__device {
+    flex-wrap: wrap;
+  }
 }
