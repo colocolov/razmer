@@ -79,11 +79,14 @@ body {
   margin: 0;
 }
 
-ul, li {
+ul,
+li {
   padding: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
 }
 
@@ -131,24 +134,28 @@ input {
   justify-content: center;
   padding: 30px;
 }
+
 .dimention__block {
   display: flex;
   /* height: 100%; */
   flex-direction: column;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   font-weight: bold;
   line-height: 1.2;
   text-align: center;
   margin-bottom: 30px;
 }
+
 .dimention__block p:first-child {
   font-size: 48px;
   margin-bottom: 20px;
 }
+
 .dimention__block p:last-child {
   font-size: 72px;
 }
+
 .dimention__device {
   font-size: 16px;
   line-height: 1.2;
@@ -158,9 +165,11 @@ input {
   align-self: flex-start;
   width: 100%;
 }
-.dimention__device p:not(:last-child)  {
+
+.dimention__device p:not(:last-child) {
   margin-bottom: 3px;
 }
+
 .dimention__device dl {
   max-width: 400px;
   display: flex;
@@ -168,28 +177,33 @@ input {
   gap: 10px;
   width: 100%;
 }
+
 .dimention__device dl h3 {
   text-align: center;
   border-bottom: 1px solid #fff;
   line-height: 2;
   margin-bottom: 7px;
 }
+
 .dimention__item {
   display: flex;
   margin-bottom: 5px;
   gap: 10px;
   justify-content: space-between;
 }
+
 .dimention__item dt {
   position: relative;
   overflow: hidden;
   flex-grow: 1;
   font-weight: 700;
 }
+
 .dimention__item dt::after {
-  content: "..........................................................";
+  content: "..........................................................................................................";
   position: absolute;
 }
+
 .dimention__item dd {
   max-width: 155px;
   flex: 1 1 54%;
@@ -199,5 +213,9 @@ input {
 @media screen and (max-width: 767.98px) {
   .dimention__device {
     flex-wrap: wrap;
+  }
+
+  .dimention__device dl {
+    max-width: 100%;
   }
 }
